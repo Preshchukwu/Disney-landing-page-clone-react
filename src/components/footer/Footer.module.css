@@ -1,0 +1,63 @@
+
+.mainContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.centerLinksListContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    column-gap: 6rem;
+}
+
+.disneyText{
+    font-weight: 500;
+}
+
+.linkListContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topText{
+    width: fit-content;
+    height: auto;
+}
+
+.topText p{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.bottomText{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomText p{
+    font-size: 0.6rem;
+}
+
+.pText{
+    font-size: 0.8rem;
+}

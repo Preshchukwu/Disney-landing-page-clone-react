@@ -1,0 +1,57 @@
+
+
+.newsCardsMainContainer{
+    width: 25%;
+    height: 350px;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageContainer img:hover{
+    transform: scale(1.01);
+}
+
+.textsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    background-color: white;
+    padding: 1rem 1.5rem;
+}
+
+.newsTextContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.newsTextContainer p{
+    font-size: 0.8rem;
+    color: #585858;
+}
+
+.newsDescriptionContainer{
+    width: 100%;
+    height: auto;
+}
+
+.newsDateContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.newsDateContainer p{
+    font-size: 0.7rem;
+    color: #666666;
+}

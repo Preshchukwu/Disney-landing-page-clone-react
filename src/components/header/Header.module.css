@@ -1,0 +1,106 @@
+
+
+
+.HeaderContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem 3rem 0 3rem;
+    /* margin-bottom: 2rem; */
+}
+
+.leftContentContainer{
+    width: fit-content;
+    height: auto;
+    position: relative;
+}
+
+.leftContentContainer p{
+    font-family: 'Waltograph';
+    font-size: 3rem;
+    position: absolute;
+    top: -18px;
+}
+
+.mainRightContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:start;
+    column-gap: 3rem;
+}
+.centerContentsContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    margin-top: 0.7rem;
+}
+
+.textLinkAndIconContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.textLinkContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.textLinkContainer p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.textLinkAndIconContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.IconContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.IconContainer img{
+    width: 18px;
+    height: 18px;
+}
+
+.rightContentContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    border: 1px solid #c4c4c4;
+    padding: 0.5rem;
+}
+
+.rightContentContainer p{
+    font-size: 1rem;
+    color: #c4c4c4;
+}
+
+.searchIconContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.searchIconContainer img{
+    width: 20px;
+    height: 20px;
+}

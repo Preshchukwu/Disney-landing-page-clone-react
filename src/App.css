@@ -1,0 +1,131 @@
+#root {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parentContainer{
+  width: 100%;
+  height: auto;
+}
+
+.firstCardComponentContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+  padding: 4rem 5rem 2rem 5rem;
+  background-color: #f1f1f1;
+}
+
+.newsSection{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.newsSectionMainContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  background-color: #f1f1f1;
+  padding-bottom: 4rem;
+}
+
+.goto{
+  margin-right: 5rem;
+  color: #1a0ec6;
+  text-decoration: underline;
+}
+
+.newsSectionText{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.firstCardComponentContainert{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 5rem 1rem 5rem;
+  background-color: #f1f1f1;
+}
+
+.firstCardComponentContainertt{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 5rem 0 5rem;
+  background-color: #010E3E;
+}
+
+.newsSectionn{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #010E3E;
+  padding: 5rem 0;
+}
+
+.disneyText{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.popularTextAndComponentDiv{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+  padding: 4rem 5rem 3rem 5rem;
+  background-color: #f1f1f1;
+}
+
+.popularText{
+  width: fit-content;
+  height: auto;
+}
+
+.popularText p{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.popularComponentContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+  
+}
