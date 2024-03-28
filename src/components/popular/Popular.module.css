@@ -3,6 +3,8 @@
 .popularMainDiv{
     width: 25%;
     height: 350px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1rem;
 }
 
@@ -13,7 +15,7 @@
 
 .popularImgContainer img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .popularTextContentContainer{
